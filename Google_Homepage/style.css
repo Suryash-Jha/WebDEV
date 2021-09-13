@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+#item {
+    display: flex;
+    margin: 2px 466px;
+}
+.magnify {
+    height: 40px;
+    
+    border: 2px solid black;
+    border-radius: 17px 0px 0px 17px;
+    border-right: none;
+}
+
+
+.mic {
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 0px 14px 14px 0px;
+    border-left: none;
+}
+
+header {margin: 21px 2px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+header span {
+    justify-self: center;
+    padding: 13px;
+    margin: 4px 0 0 0;
+    font-size: 17px;
+}
+header img {
+    padding: 0px;
+    width: 118px;
+    height: 54px;
+}
+#logo {
+    margin: 41px 33% 5px 37%;
+    /* border: 2px solid red; */
+    width: 402px;
+    height: 134px;
+}
+#GoogleSearch {
+      /* margin: 2px 533px; */
+    /* border: 2px solid red; */
+    width: 538px;
+    height: 40px;
+    border-left: none;
+    border-right:none;
+    border-bottom: -1px;
+}
+
+#item:hover{
+box-shadow: 0px 2px rgb(119, 118, 118);
+}
+#button{
+padding: 10px;
+display: flex;
+justify-content: center;
+
+}
+
+#button button{border: none;
+    color: rgb(119, 117, 117);
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: rgb(244 240 240);
+    
+}
+
+.container a, span {
+    margin: 0px 5px;
+    text-decoration: none;
+}
+

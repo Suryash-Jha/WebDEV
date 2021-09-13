@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{ display: flex;
+.container{ display: flexndf;
     /* border: 2px solid rgb(243, 103, 103); */
   
 }
@@ -31,6 +31,11 @@ cursor: pointer;
 cursor:text;
 }
 
+/* .robot{
+    width:10%;
+    height: 200px;
+    float:right;
+} */
 #bordering {
     width:70%;
     border: 12px solid red;
